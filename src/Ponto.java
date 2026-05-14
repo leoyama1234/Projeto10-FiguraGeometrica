@@ -9,10 +9,7 @@ public class Ponto {
 
     @Override
     public String toString() {
-        return "Ponto{" +
-                "coordenadaX=" + coordenadaX +
-                ", coordenadaY=" + coordenadaY +
-                '}';
+        return "(" + coordenadaX + ", " + coordenadaY + " ";
     }
 
     public int getCoordenadaX() {

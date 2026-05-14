@@ -1,4 +1,4 @@
-public class Cilindro extends Figura{
+public class Cilindro extends Figura implements Volume {
     private double raio;
     private double altura;
     private Ponto ponto;
